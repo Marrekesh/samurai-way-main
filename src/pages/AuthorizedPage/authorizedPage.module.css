@@ -1,0 +1,14 @@
+.authorizedPage {
+    margin-top: calc(var(--header-height) + 20px);
+    width: 100%;
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: var(--loyout-width);
+    padding: 0 15px;
+}
+
+.contentBlock {
+    display: flex;
+}

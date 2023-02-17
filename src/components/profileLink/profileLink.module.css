@@ -1,0 +1,22 @@
+.profileLink {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.profileLink:hover {
+    background-color: rgba(255,255,255, .1);
+}
+
+.profileLink__img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.profileLink__chevron {
+    color: #ffffff;
+}

@@ -1,0 +1,7 @@
+.postAddForm {
+    border-radius: 12px;
+    background-color: var(--header_background);
+    width: 300px;
+    margin-right: 10px;
+    flex-grow: 1;
+}

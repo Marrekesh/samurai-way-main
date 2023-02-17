@@ -1,0 +1,79 @@
+.headerContent {
+    position: fixed;
+    height: var(--header-height);
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 120;
+    direction: ltr;
+    border-bottom: 1px solid #292929;
+    background-color: var(--header_background);
+}
+
+.pageHeaderWrap {
+    /*width: 1518px;*/
+    height: 100%;
+    direction: ltr;
+}
+
+.pageHeader {
+    width: var(--loyout-width);
+    height: 100%;
+    position: relative;
+    margin: 0 auto;
+    font-size: 12.5px;
+    padding: 0 15px;
+}
+
+.headerNav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: inherit;
+    list-style-type: none;
+}
+
+.headerNavItem {
+    padding: 0;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+}
+.headerNavItem__Logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+}
+
+
+.topHomeLink {
+    font-size: 16px;
+    width: 165px;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.headerNav__search {
+    margin-right: 15px;
+}
+
+.headerNav__btns {
+    display: flex;
+    flex-grow: 1;
+}
+
+.headerNav__btn {
+    font-size: 20px;
+    color: #ffffff;
+    margin-right: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+.myPage {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 16px;
+    flex-grow: 9;
+    color: white;
+}
+
+.photoAndFriendsBlock {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 16px;
+}
+
+.posts {
+
+}

@@ -1,0 +1,39 @@
+.sideBar {
+    flex-grow: 0;
+    margin-right: 15px;
+}
+
+.sideBar__nav {
+
+}
+
+.sideBar__ul {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sideBarLink {
+    text-decoration: none;
+    color: white;
+}
+
+.sideBar__item {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    padding: 5px;
+}
+
+.sideBar__item:hover {
+    background-color: #292929;
+    border-radius: 5px;
+}
+
+.sidebarIcon {
+    margin-right: 5px;
+}
+

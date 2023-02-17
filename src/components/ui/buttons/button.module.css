@@ -1,0 +1,10 @@
+
+.postAddButton {
+    padding: 0 16px;
+    height: 30px;
+    color: #222222;
+    background-color: #e1e3e6;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}

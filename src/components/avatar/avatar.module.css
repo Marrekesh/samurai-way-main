@@ -1,0 +1,28 @@
+.avatar {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.avatarBig {
+    position: absolute;
+    top: -120px;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
+    border: 1px solid white;
+    z-index: 2;
+}
+
+
+
+.avatarMini {
+    width: 32px;
+    height: 32px;
+}
+
+.avatarMar5 {
+    margin-right: 5px;
+}

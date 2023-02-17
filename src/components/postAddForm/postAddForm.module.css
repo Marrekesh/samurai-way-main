@@ -1,0 +1,11 @@
+.postAddForm {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    padding: 15px 15px;
+    border-radius: 12px;
+    background-color: var(--header_background);
+
+    margin-bottom: 16px;
+}
